@@ -14,7 +14,8 @@ proxies:
       headers:
         Host: id.vless.sbs
     udp: true
-    - name: ID 2
+
+    - name: AKUN2
     server: quiz.vidio.com
     port: 443
     type: vless
