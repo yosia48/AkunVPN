@@ -1,0 +1,16 @@
+proxies:
+  - name: ID
+    server: quiz.vidio.com
+    port: 443
+    type: vless
+    uuid: b2c3bf93-5349-4d5f-bfd7-3960e86d60ff
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id.vless.sbs
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: id.vless.sbs
+    udp: true
